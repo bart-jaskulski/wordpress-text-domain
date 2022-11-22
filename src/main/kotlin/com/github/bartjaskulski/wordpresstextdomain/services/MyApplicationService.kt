@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.bartjaskulski.wordpresstextdomain.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.bartjaskulski.wordpresstextdomain.MyBundle
 
 class MyApplicationService {
 
