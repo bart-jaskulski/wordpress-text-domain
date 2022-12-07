@@ -1,0 +1,3 @@
+<?php
+
+__('Translatable', '<caret>');

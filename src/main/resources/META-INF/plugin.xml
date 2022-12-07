@@ -1,18 +1,15 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.bartjaskulski.wordpresstextdomain</id>
-    <name>IntelliJ Platform Plugin wordpress-text-domain</name>
+    <name>WordPress Text Domain Completion</name>
     <vendor>bart-jaskulski</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.bartjaskulski.wordpresstextdomain.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.bartjaskulski.wordpresstextdomain.services.MyProjectService"/>
+        <completion.contributor language="PHP"
+                                order="first"
+                                implementationClass="com.github.bartjaskulski.wordpresstextdomain.completion.TextDomainContributor" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.bartjaskulski.wordpresstextdomain.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

@@ -1,7 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# wordpress-text-domain Changelog
+# WordPress Text Domain Completion Changelog
 
-## [Unreleased]
+## [0.8.0] - 2022-12-07
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Initial plugin with basic, yet complete support for text domain completion
