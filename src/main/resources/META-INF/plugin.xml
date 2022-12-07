@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.bartjaskulski.wordpresstextdomain</id>
-    <name>WordPress Text Domain Completion</name>
-    <vendor>bart-jaskulski</vendor>
+    <name>Text Domain Completion for WordPress</name>
+    <vendor email="bjaskulski@protonmail.com">Bartek Jaskulski</vendor>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.jetbrains.php</depends>

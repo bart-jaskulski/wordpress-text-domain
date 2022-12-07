@@ -1,4 +1,4 @@
-# WordPress Text Domain Completion
+# Text Domain Completion for WordPress
 
 ![Build](https://github.com/bart-jaskulski/wordpress-text-domain/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/wordpress-text-domain.svg)](https://plugins.jetbrains.com/plugin/wordpress-text-domain)
