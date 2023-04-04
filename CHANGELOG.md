@@ -2,6 +2,11 @@
 
 # WordPress Text Domain Completion Changelog
 
+## [Unreleased]
+
+### Changed
+- Add support for PhpStorm 2023.1
+
 ## [0.8.0] - 2022-12-07
 
 ### Added
