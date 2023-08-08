@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+### Changed
+- Add support for PhpStorm 2023.2
+
+
 ## [0.8.1] - 2023-04-04
 
 ### Changed
