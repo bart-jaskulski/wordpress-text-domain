@@ -4,9 +4,10 @@
 
 ## [Unreleased]
 
+## [0.8.2] - 2023-08-14
+
 ### Changed
 - Add support for PhpStorm 2023.2
-
 
 ## [0.8.1] - 2023-04-04
 
@@ -23,7 +24,8 @@
 ### Added
 - Grabbed default IntelliJ Idea Plugin Template
 
-[Unreleased]: https://github.com/bart-jaskulski/wordpress-text-domain/compare/v0.8.1...HEAD
+[Unreleased]: https://github.com/bart-jaskulski/wordpress-text-domain/compare/v0.8.2...HEAD
+[0.8.2]: https://github.com/bart-jaskulski/wordpress-text-domain/compare/v0.8.1...v0.8.2
 [0.8.1]: https://github.com/bart-jaskulski/wordpress-text-domain/compare/v0.8.0...v0.8.1
 [0.8.0]: https://github.com/bart-jaskulski/wordpress-text-domain/compare/v0.1.0...v0.8.0
 [0.1.0]: https://github.com/bart-jaskulski/wordpress-text-domain/commits/v0.1.0
